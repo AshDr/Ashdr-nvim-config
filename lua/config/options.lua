@@ -5,3 +5,9 @@
 --vim.bo.shiftwidth = 4
 --vim.bo.expandtab = true
 --vim.bo.softtabstop = 4
+-- 设置缩进为四个空格
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+--vim.cmd("set background=light")
+vim.cmd("set background=dark")
