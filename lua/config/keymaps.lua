@@ -4,7 +4,7 @@
 --
 local wk = require("which-key")
 
-wk.register({
-  ["<leader>y"] = { [["+y]], "Copy to system clipboard" },
-  ["<leader>p"] = { [["+p]], "Paste from system clipboard" },
+wk.add({
+  { "<leader>p", '"+p', desc = "Paste from system clipboard" },
+  { "<leader>y", '"+y', desc = "Copy to system clipboard" },
 })
